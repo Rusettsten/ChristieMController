@@ -1,0 +1,13 @@
+# Configuration for Christie M Controller
+# --- ArtNet Configuration ---
+dmxSubnet: 0
+dmxUniverse: 1
+# --- Projector Configuration ---
+projectors:
+    - projectorName: "Test"
+      projectorIp: "192.168.0.1"
+      projectorPort: 3002
+      enabledChannel: 0
+      shutterChannel: 101
+      powerChannel: 102
+		
