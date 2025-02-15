@@ -1,4 +1,4 @@
-# ChristieMController
+# Christie M Controller
 An ArtNet based controller for Christie M-Series projectors. Able to send both shutter and power commands.
 
 
