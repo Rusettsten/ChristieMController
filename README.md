@@ -12,21 +12,23 @@ This was developed for use on *The Odyssey* at American Repertory Theater in Cam
 
 <details>
 <summary>Advanced Users & Developers</summary>
-Launch the jarfile as you would any other from a command line. The first time you run it, it will generate a folder next to it where it keeps logs & has a **properties.yml** you can edit to configure your projectors. For more on that, see the [Configuration File](## Configuration File) section.
+  
+  Launch the jarfile as you would any other from a command line. The first time you run it, it will generate a folder next to it where it keeps logs & has a **properties.yml** you can edit to configure your projectors. For more on that, see the [Configuration File](#configuration-file) section.
 </details>
 
 <details>
 <summary>Beginners & Non-Developers</summary>
-Install the [Java JDK](https://learn.microsoft.com/en-us/java/openjdk/download) for your system. Open Command Prompt (or Terminal on MacOS) and type the following command:
-```bash
-java -jar C:\path\to\ChristieMController-1.0.2.jar
-```
-The first time it will generate a folder next to it where it keeps logs & has a **properties.yml** you can edit to configure your projectors. For more on that, see the [Configuration File](## Configuration File) section.
+
+  Install the [Java JDK](https://learn.microsoft.com/en-us/java/openjdk/download) for your system. Open Command Prompt (or Terminal on MacOS) and type the following command:
+  ```bash
+  java -jar C:\path\to\ChristieMController-1.0.2.jar
+  ```
+  The first time it will generate a folder next to it where it keeps logs & has a **properties.yml** you can edit to configure your projectors. For more on that, see the       [Configuration File](## Configuration File) section.
 </details>
 
 
 ## Configuration File
-The configuration file is [YAML](https://en.wikipedia.org/wiki/YAML). Do you not need to specify an ethernet adapter, but can if you wish. See [Using A Custom Network Interface](## Using A Custom Network Interface) .
+The configuration file is [YAML](https://en.wikipedia.org/wiki/YAML). Do you not need to specify an ethernet adapter, but can if you wish. See [Using A Custom Network Interface](#using-a-custom-network-interface).
 
 In the configuration... 
 - you must specify which ArtNet **subnet** and **universe** the program listens on.
@@ -37,7 +39,7 @@ In the configuration...
 
 For reference, an example fully filled out configuration is shown below as used on *The Odyssey*.
 
-```
+```yaml
 # Configuration for Christie M Controller
 # --- ArtNet Configuration ---
 networkInterface: "ethernet_32769"
