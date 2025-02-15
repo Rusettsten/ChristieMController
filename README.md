@@ -18,7 +18,7 @@ Launch the jarfile as you would any other from a command line. The first time yo
 <details>
 <summary>Beginners & Non-Developers</summary>
 Install the [Java JDK](https://learn.microsoft.com/en-us/java/openjdk/download) for your system. Open Command Prompt (or Terminal on MacOS) and type the following command:
-```
+```bash
 java -jar C:\path\to\ChristieMController-1.0.2.jar
 ```
 The first time it will generate a folder next to it where it keeps logs & has a **properties.yml** you can edit to configure your projectors. For more on that, see the [Configuration File](## Configuration File) section.
