@@ -64,5 +64,5 @@ projectors:
 
 ## Using A Custom Network Interface
 
-As you may have seen in the [Configuration](## Configuration File) section, a custom **networkInferface** is specified. If you are unsure what to put here, just put something random. The next time you launch the program it will provide a list of networkInterfaces and their names that you can use in this part of the configuration.
+As you may have seen in the [Configuration](#configuration-file) section, a custom **networkInferface** is specified. If you are unsure what to put here, just put something random. The next time you launch the program it will provide a list of networkInterfaces and their names that you can use in this part of the configuration.
 
