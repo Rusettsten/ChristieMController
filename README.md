@@ -26,7 +26,7 @@ The first time it will generate a folder next to it where it keeps logs & has a 
 
 
 ## Configuration File
-The configuration file is [YAML](https://en.wikipedia.org/wiki/YAML). Do you not need to specify an ethernet adapter, but can if you wish. See [Using A Custom Network Interface](## Using A Custom Network Interface).
+The configuration file is [YAML](https://en.wikipedia.org/wiki/YAML). Do you not need to specify an ethernet adapter, but can if you wish. See [Using A Custom Network Interface](## Using A Custom Network Interface) .
 
 In the configuration... 
 - you must specify which ArtNet **subnet** and **universe** the program listens on.
